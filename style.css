@@ -1,0 +1,581 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.logo img {
+    width: 80px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(232, 230, 229, 0.75));
+    /* background-image: url(./img2/Shape.png); */
+    /* padding: 20px 0; */
+    /* width: 100%; */
+    /* background-repeat: no-repeat; */
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.row {
+    display: flex;
+    margin: 0 20px;
+}
+
+.content-center {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-item ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu-toggel {
+    display: none;
+}
+
+.nav-item ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #54524f;
+    font-weight: 700;
+}
+
+.nav-item ul li a::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 2px;
+    background: rgb(255, 0, 0);
+    bottom: 0;
+    left: 0;
+    transition: all.5s;
+}
+
+.nav-item ul li a:hover::after,
+.nav-item ul li a:hover {
+    width: 100%;
+    color: red;
+
+}
+
+.search-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+
+/*<<<<<.......... title section..........>>>>> */
+
+.title-section {
+    background-image: url(./img/bg-1.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.box-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    height: 550px;
+}
+
+.box-item .title-conten-box h1 {
+    padding-bottom: 60px;
+    width: 570px;
+    font-size: 92px;
+    color: #deb37e;
+    font-weight: 800;
+    /* font-family: "Open Sans"; */
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
+}
+
+.box-item .title-conten-box p {
+    width: 420px;
+    height: 65px;
+    font-size: 25px;
+    /* letter-spacing: 5px; */
+    color: #776c64;
+    font-weight: 700;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: center;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+.box-item .title-conten-box a {
+    font-size: 25px;
+    color: #151313;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;
+    background-color: #ffffff;
+    padding: 7px 10px;
+    margin-left: 50px;
+    transition: all .4s;
+}
+
+.box-item .title-conten-box a:hover {
+    background-color: #4b84ec;
+}
+
+
+/*<<<<<.......... second section..........>>>>> */
+.py {
+    padding-top: 90px;
+}
+
+.second-section {
+    background-color: aliceblue;
+    height: 1000px;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.col-33 {
+    width: 26%;
+    margin: 0 auto;
+}
+
+.col-box {
+    background-color: #7f7770;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.img-box {
+    overflow: hidden;
+}
+
+.col-box img {
+    object-fit: cover;
+    transition: all .5s;
+    width: 100%;
+}
+
+.col-box:hover img {
+    transform: scale(1.1);
+}
+
+.text-black {
+    width: 1000px;
+    font-size: 27px;
+    color: #7f7770;
+    font-weight: 400;
+    font-family: "Open Sans";
+    margin: 10px 250px 10px 250px;
+}
+
+.text-area {
+    padding: 25px;
+}
+
+.text-aliceblue {
+    color: #fff;
+}
+
+.text-white {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Open Sans";
+    padding-top: 10px;
+}
+
+.btn-sec a {
+    text-decoration: none;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #ffffff;
+    /* font-weight: 800; */
+    font-family: "Open Sans";
+}
+
+.btn-sec {
+    margin: 55px auto;
+    width: 230px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #7f7770;
+    text-align: center;
+    border-color: blue;
+}
+
+.second-section .shap-img .btn-sec:hover {
+    background-color: rgb(231, 144, 97);
+}
+
+
+.hiking,
+.textCenter h2 {
+    font-size: 63px;
+    text-transform: uppercase;
+    color: #e2a355;
+    font-weight: 800;
+    font-family: "Open Sans";
+}
+
+
+/*<<<<<.......... Third section..........>>>>> */
+.third-section {
+    width: 100%;
+    height: 712px;
+    background-color: #7f7770;
+}
+
+.col-50 {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.contain {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.contain h2 {
+    font-size: 65px;
+    width: 550px;
+}
+
+
+.contain-box p,
+.containe p {
+    width: 550px;
+    height: 175px;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+    padding: 20px 0;
+}
+
+
+.button {
+    background-color: red;
+    padding: 15px 55px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 1000;
+    padding: 15px 50px 15px 50px;
+
+}
+
+.third-section .contain .contain-box .button:hover {
+    background-color: white;
+    color: #7f7770;
+}
+
+
+/*<<<<<.......... fourth section..........>>>>> */
+.fourth-section {
+    width: 100%;
+    height: 701px;
+    background-color: #deb37e;
+}
+
+.contain-box p,
+.containe p {
+    width: 550px;
+    height: 175px;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+.fourth-section .contain .contain-box .button:hover {
+    background-color: white;
+    color: #b77b31;
+}
+
+
+/*<<<<<.......... fifth section..........>>>>> */
+.fifth-section {
+    background-color: #666058;
+    /* background-image: url(./img2/Rectangle\ .png); */
+    height: 748px;
+    background-size: cover;
+    /* overflow: hidden; */
+    /* overflow-y: hidden; */
+}
+
+.text-column {
+    width: 100%;
+    height: 730px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.image-five img {
+    width: 100%;
+    /* display: block; */
+}
+
+.text-column p {
+    width: 921px;
+    height: 188px;
+    font-size: 29px;
+    color: #dbdbdb;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* .shape img{
+    width: 100%;
+} */
+
+.text-column h2 {
+    font-size: 58px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Open Sans";
+}
+
+/*<<<<<.......... sixth section..........>>>>> */
+.sixth-section {
+    background-image: url(./img/bg-2.png);
+    width: 100%;
+    height: 1000px;
+
+}
+
+.bg h3 {
+    padding: 310px 60px 0px 0px;
+    font-size: 76px;
+    color: #deb37e;
+    font-weight: 800;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: right;
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.36));
+
+}
+
+.bg h4 {
+    padding: 0px 60px 0px 0px;
+    font-size: 76px;
+    color: #292521;
+    font-weight: 800;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: right;
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.36));
+}
+
+
+/* <!-- <<<<<<.......... seventh section..........>>>>> */
+.seven-section {
+    height: 800px;
+    background-image: url(./img/Shadow2.png);
+    background-repeat: no-repeat;
+
+
+}
+
+.py-25 {
+    padding: 90px 15px;
+}
+
+.col-33 h4 {
+    font-size: 33px;
+    line-height: 33px;
+    color: #deb37e;
+    font-weight: 700;
+    font-family: "Open Sans";
+    padding-bottom: 20px;
+}
+
+.p-lorem {
+    font-size: 19px;
+    line-height: 25px;
+    color: #333d42;
+    font-weight: 400;
+    font-family: "Open Sans";
+}
+
+
+.text-column-black p {
+    width: 817px;
+    height: 161px;
+    font-size: 25px;
+    color: #3f3f3f;
+    font-weight: 600;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.text-column-black h4 {
+    font-size: 25px;
+    line-height: 33px;
+    color: #3f3f3f;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+
+/* <!-- <<<<<<.......... eight section..........>>>>> */
+.eight-section {
+    width: 100%;
+    height: 700px;
+    background-color: #deb37e;
+}
+
+.textCenter h3 {
+    padding: 240px 0px 50px 0px;
+    ;
+    font-size: 70px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Open Sans";
+    text-align: center;
+}
+
+.textCenter p {
+    width: 950px;
+    font-size: 26px;
+    margin: 0px 0px 0px 230px;
+    color: #54524f;
+    text-align: center;
+
+}
+
+.search-input {
+    padding: 50px 0;
+    position: relative;
+}
+
+.search {
+    margin: auto;
+    outline: none;
+    padding: 12px 110px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.textCenter button {
+    padding: 12px 30px;
+    margin: 5px -36px;
+    border-radius: 30px;
+    border: none;
+    background-color: #54524f;
+    color: white;
+    font-size: 17px;
+}
+
+/* <!-- <<<<<<.......... eight section..........>>>>> */
+.footer {
+    height: 550px;
+    background-color: #7f7770;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+    min-width: 250px;
+    margin-bottom: 20px;
+    color: #fff;
+    padding-top: 120px;
+}
+
+.footer h3 {
+    font-size: 35px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat";
+    margin-bottom: 30px;
+}
+
+.footer p {
+    width: 505px;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.so-me{
+    display: inline-flex;
+    /* margin-top: 10px; */
+}
+
+.so-me img{
+    padding: 8px;
+}
+
+.footer-col-1 {
+    flex-basis: 45%;
+}
+
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+    padding-left: 80px;
+}
+
+.footer-col-3,
+.footer-col-4 {
+    flex-basis: 12%;
+    cursor: pointer;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: transform .5s;
+    font-size: 18px;
+}
+
+.footer-col-2 ul li,
+.footer-col-3 ul li,
+.footer-col-4 ul li {
+    margin-bottom: 8px;
+    margin-top: 15px;
+    transition: transform .5s;
+}
+
+.footer-col-2 ul li:hover,
+.footer-col-3 ul li:hover,
+.footer-col-4 ul li:hover,
+.footer a:hover {
+    transform: translateX(8px);
+    color: red;
+}
+
+ul {
+    list-style: none;
+}
